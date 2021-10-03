@@ -8,7 +8,7 @@ const Header = () => {
         <div className='menu'>
           <input type='checkbox' id='check' />
           <div className='logo'>
-            <a href={`${process.env.PUBLIC_URL}/`}>Hlu Kya ML</a>
+            <a href={`${process.env.PUBLIC_URL}/`}>Hlu Kya ML - Movies</a>
           </div>
           <ul>
             <label className='btn cancel' htmlFor='check'>
