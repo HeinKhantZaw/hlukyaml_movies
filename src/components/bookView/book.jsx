@@ -61,6 +61,6 @@ Book.propTypes = {
   movieCover: PropTypes.string,
   review: PropTypes.string,
   downloadLinkBurmese: PropTypes.string,
-  downloadLinkBurmese: PropTypes.string,
+  downloadLinkEnglish: PropTypes.string,
   movieCategory: PropTypes.object,
 };
