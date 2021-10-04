@@ -1,6 +1,6 @@
 import React from "react";
 import Lottie from "react-lottie";
-import animationData from "./45130-book.json";
+import animationData from "./1961-movie-loading.json";
 
 const BookLoadingAnim = () => {
   const defaultOptions = {
