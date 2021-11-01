@@ -6,7 +6,7 @@ const Footer = () => {
       <Card>
     <footer
       className='footer txt-center fx-center'>
-      &copy; {new Date().getFullYear()} Made with &#10084; by Hlu Kya ML team
+      &copy; {new Date().getFullYear()} Made with &#10084; by D Ka Kyi team
     </footer>
     </Card>
   );

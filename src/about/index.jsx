@@ -1,82 +1,65 @@
 import React from "react";
-import { Card, Divider, Body1, Fab } from "ui-neumorphism";
-import { FaFacebookSquare, FaTelegram } from "react-icons/fa";
+import {Card, Divider, Body1, Fab} from "ui-neumorphism";
+import {FaFacebookSquare, FaTelegram} from "react-icons/fa";
 
 const About = () => {
-  return (
-    <Card
-      style={{
-        padding: "2.1875em 5%",
-      }}>
-      <h1>ABOUT US</h1>
-      <Divider dense />
-      <Body1>
-        ကျွန်တော်တို့ Hlu Kya Ml (လှူကြမယ်) Page လေးရဲ့ ရည်ရွယ်ချက်ကတော့
-        စစ်ဘေးရှောင် ဒေသတွေ နဲ့ တကယ်လိုအပ်တဲ့နေရာတွေကို ထောက်ပံ့ပေးချင်လို့ပါဗျ။
-        ဒီလိုပြောလို့ အိတ်ထဲက ပိုက်ဆံကိုထုတ်ပြီး လှူပေးရမှာ မဟုတ်ပါဘူး။ တချို့က
-        လှူချင်ရဲ့သားနဲ့ အဆင်မပြေလို့ မလှူနိုင်သူတွေရှိပါတယ်။ အဓိကက
-        ဝင်ငွေမရှိလို့ပါ။ ကျွန်တော်တို့အပါအဝင်ပေါ့ခင်များ။
-      </Body1>
-      <Body1>
-        ဒါကြောင့် အားလုံးအဆင်ပြေပြီး မလှူနိုင်တဲ့လူမရှိရလေအောင်
-        လူသားချင်းစာနာတဲ့ စိတ်ကလေးကို အခြေခံပြီး ဒီအစီစဉ်လေးကို လုပ်လိုက်ရတာပါ။
-        ဘယ်လိုလုပ်ရမယ်ဆိုတာ အခုသေချာရှင်းပြပေးပါမယ်။ ကျွန်တော်တို့က စာအုပ်
-        download link တချို့ကို ချပေးပါ့မယ်။ အဲ့ link ထဲကိုဝင်ပြီး download clip
-        မနှိပ်ခင်မှာ စာအုပ်ကြော်ငြာဝင်ပါမယ်။ ကြော်ငြာကို skip နှိပ်ပြီးတာနဲ့
-        ဖတ်ချင်တဲ့စာအုပ်ကိုစတင် down လို့ရပါပြီ။ အလှူငွေကိုတော့ အဲဒီ Ads
-        (ကြော်ငြာ) ကနေ ရရှိမှာဖြစ်ပါတယ်။ နည်းနည်းများရှုပ်သွားကြသလားမသိဘူး။
-        ကျွန်တော်ဆက်ရှင်းပြပါ့မယ်။
-      </Body1>
-      <Body1>
-        ယခင်က Channel Myanmar ကနေ download ဆွဲဖူးသူတွေ‌ဆိုသိပါတယ်။ Movie
-        download link ထဲရောက်ဖို့ကို Adfly က ကြော်ငြာတွေကို အဆင့်ဆင့်ဖြတ်ပြီးမှ
-        download လုပ်လို့ရတာမျိုးပါ။ ကြော်ငြာကြည့်ရှု့နှုန်းများလေ
-        အလှူငွေရလေပါပဲ။ Cost Per Mille (Cost Per Thousand) ကြည့်ရှု့သူ အယောက်
-        ၁၀၀၀ အတွက် ရရှိငွေ 3 USD သဘောမျိုးပါ။ အတိုချုံး ပြောရရင်
-        ကြော်ငြာကြည့်တဲ့သူအပေါ်မူတည်ပြီး အလှူ‌ငွေရရှိမှာပါ။ ငွေကိုတော့ PayPal or
-        Payoneer တို့နဲ့ ထုတ်ရပါတယ်။ (၅ရက်ကနေ ၇ရက်အတွင်းတော့ စောင့်ရလေ့ရှိပါတယ်)
-        အဓိကက စာဖတ်ဝါသနာပါတဲ့သူတွေအတွက် ရည်ရွယ်ပါတယ်။ စာဖတ်ဝါသနာမပါလည်း Link ကို
-        Clip လုပ်ပြီး ကြော်ငြာခဏစောင့်ပြီး ပေါ်လာတာနဲ့ Skip နှိပ်ပြီး
-        ပြန်ထွက်ရင် အဆင်ပြေပါတယ်။ ခုလောလောဆယ်တော့ ကျွန်တော်တို့က English E-Book
-        တွေကို ဦးစားပေးတင်ပေးသွားမှာပါ။ နောက်ပိုင်းတော့ မြန်မာစာအုပ်တချို့ကိုပါ
-        Review ရေး‌ပေးပြီး download လုပ်လို့ရအောင်စဉ်းစားထားပါတယ်။ Website
-        လည်းရှိတဲ့အတွက် လိုချင်တဲ့စာအုပ်တွေကို တစုတစည်းတည်းလည်း
-        ဝင်ရှာလို့ရပါတယ်။
-      </Body1>
-      <Body1>
-        ကဲ ... အားလုံး အဆင်မပြေဘူးလားဗျာ။ အိမ်ထဲကနေပြီး တိုက်ပွဲဝင်နေသူတွေကို
-        ကျွန်တော်နဲ့ အတူ တစ်တပ်တစ်အား ကူညီအားဖြည့်လိုက်ရအောင်လား။
-        အရေးတော်ပုံအတွက် တစ်ထောင့်တစ်နေရာက ပါဝင်အားဖြည့်တာလည်း မွန်မြတ်တဲ့
-        အလုပ်တစ်ခုပါပဲ။ ကောက်ခံရရှိသမျှအလှူငွေတွေကိုလည်း
-        ကျွန်တော်တို့ကိုယ်ကျိုးအတွက် လုံးဝ လုံးဝ အသုံးမပြုပါဘူးခင်များ။
-        ကောက်ခံရရှိသမျှငွေကိုလည်း အလှူစာရင်းနှင့်တကွ တင်ပြပေးသွားမှာပါ။
-        နေ့တိုင်းဖတ်မယ် နေ့တိုင်းလှူမယ်။ များများဖတ်မယ် များများလှူမယ်။
-      </Body1>
-      <div className='row'>
-        <div className='col-md-3' />
-        <Fab
-          className='col-sm-12 col-md-3 my-4 d-inline-flex justify-content-center'
-          onClick={openFb}>
-          &nbsp;
-          <FaFacebookSquare />
-          &nbsp;Facbook&nbsp;
-        </Fab>
-        <Fab
-          className='col-sm-12 col-md-3 my-4 d-inline-flex justify-content-center'
-          onClick={openTelegram}>
-          &nbsp;
-          <FaTelegram />
-          &nbsp;Telegram&nbsp;
-        </Fab>
-        <div className='col-md-3' />
-      </div>
-    </Card>
-  );
+    return (
+        <Card
+            style={{
+                padding: "2.1875em 5%",
+            }}>
+            <h1>ABOUT US</h1>
+            <Divider dense/>
+            <Body1>
+                မင်္ဂလာပါ။ ရုပ်ရှင်ကြည့်မယ်ဆို ဒီကကြည့်ပါ 🙋🏻‍♂️
+            </Body1>
+            <Body1>
+                👉🏻 "ဒီကကြည့်-D ka kyi Page" အကြောင်း မိတ်ဆက်ပေးပါမယ်ဗျ။
+                ဒီကကြည့်-D ka kyi Pageဟာ ကျွန်တော်တို့ ရုပ်ရှင်ကြိုက်နှစ်သက်သူတွေ အပျင်းပြေ ရုပ်ရှင်ကြည့်ရင်း
+                တော်လှန်ရေးအတွက်လည်း တစ်ထောင့်တစ်နေရာက အကျိုးပြုနိုင်ဖို့အတွက် ရည်ရွယ်ပါတယ်။
+            </Body1>
+            <Body1>
+                👉🏻 ဒီကကြည့်-D ka kyi page မှာ ဘာတွေတင်သွားမလဲဆိုရင်တော့ -
+                မိမိကြိုက်နှစ်သက်တဲ့ ရုပ်ရှင်ကားတွေကို တိုက်ရိုက်ဝင်ရောက်ကြည့်ရှူနိုင်မယ့် Movie links တွေ
+                တင်ပေးသွားမှာပါ။
+            </Body1>
+            <Body1>👉🏻 Link မှတဆင့် ဝင်ရောက်ရုပ်ရှင်ကြည့်ရင်း ရရှိလာမယ့် Fund ငွေအားလုံးကို ကျွန်တော်တို့ ဒီကကြည့်-D ka
+                kyi Team က တော်လှန်ရေးအတွက် လိုအပ်မယ့် နေရာအသီးသီးဆီသို့ ထောက်ပံ့ပေးသွားမှာဖြစ်ပါတယ်။</Body1>
+            <Body1>👉🏻 အခုတင်ထားပြီးတဲ့ ရုပ်ရှင်တွေကြည့်ချင်ရင်တော့ ဒီ website လေးထဲဝင်ကြည့်လို့ရပါပြီ။</Body1>
+            <Body1>👉🏻 ကျွန်တော်တို့မတင်ရသေးလို့ မိမိကြည့်ချင်တဲ့ရုပ်ရှင်တွေရှိရင်လည်း ဒီ <a href={"https://l.facebook.com/l.php?u=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2Fe%2F1FAIpQLScqieWpOAfJVbsEeavJ7ulJiS2ZLUomPcPWwaiyDBF3PhsnDw%2Fviewform%3Fusp%3Dsf_link%26fbclid%3DIwAR3Dg22-K36QoB7kqsH_Wowool_7TH8165CejImLxUmJnZ30_DVlqrdj0Ts&h=AT0BnWitxXAbjPvIackaxV32YaVCMQCFc9IYU1Exlzvi_kER8pvtlQf3N9a82wNXf8nBFEbpG2uDREpXxQI9Yo4xwAJIocAkGl1V-a9-VIauYkVJAWBR28KKVTQCevEncb1r&__tn__=-UK-R&c[0]=AT0nzalFmAjBWuiIDFn7j1rEUlUYy7lEmmNlxsnJS4TjxLfO8owPCDGEeeP358iI5Q2xatHe4vyxaBRPS0KJVTMbVWmmXD6ia4gtwQxd-GtfZ5ftlwQQiYpmM_7FPpwxJuLve_N2U82YK58CW15uwq6kKte25cwK56n6HtGro1MDwg"}><b>Google Form</b></a> လေးမှာ
+                ဝင်ရောက်ဖြည့်စွက်ပြီး တောင်းဆိုနိုင်ပါတယ်ခင်ဗျ။</Body1>
+            <Body1>
+                အရေးတော်ပုံအောင်ဖို့ ကူပြီး Click ပေးကြပါဉီးဗျ ၊ ကျေးဇူးအများကြီးတင်ပါတယ်။
+            </Body1>
+            <Body1>
+                ❤️WITH LOVE,
+                ဒီကကြည့်-D ka kyi team.
+            </Body1>
+            <div className='row'>
+                <div className='col-md-3'/>
+                <Fab
+                    className='col-sm-12 col-md-3 my-4 d-inline-flex justify-content-center'
+                    onClick={openFb}>
+                    &nbsp;
+                    <FaFacebookSquare/>
+                    &nbsp;Facbook&nbsp;
+                </Fab>
+                <Fab
+                    className='col-sm-12 col-md-3 my-4 d-inline-flex justify-content-center'
+                    onClick={openTelegram}>
+                    &nbsp;
+                    <FaTelegram/>
+                    &nbsp;Telegram&nbsp;
+                </Fab>
+                <div className='col-md-3'/>
+            </div>
+        </Card>
+    );
 };
 const openFb = () => {
-  window.open(`https://www.facebook.com/hlukyaml/`);
+    window.open(`https://www.facebook.com/%E1%80%92%E1%80%AE%E1%80%80%E1%80%80%E1%80%BC%E1%80%8A%E1%80%BA%E1%80%B7-D-ka-kyi-106641088490068/`);
 };
 const openTelegram = () => {
-  window.open(`https://t.me/hlukyaml`);
+    window.open(`https://t.me/dkakyi`);
 };
 export default About;
